@@ -1,4 +1,4 @@
-import { Pprops } from "./p.props";
+import { Pprops } from "./P.props";
 import styles from './P.module.css';
 import cn from 'classnames';
 
@@ -14,5 +14,5 @@ export const P = ({children, size = 'normal', ...props}: Pprops): JSX.Element =>
         >
             {children}
         </p>
-    )
+    );
 };

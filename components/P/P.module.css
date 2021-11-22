@@ -1,14 +1,17 @@
 .p {
-    line-height: 29px;
-    margin: 0;
+	margin: 0;
+
+	line-height: 29px;
 }
+
 .big {
-    font-size: 18px;
+	font-size: 18px;
 }
 
 .normal {
-    font-size: 16px;
+	font-size: 16px;
 }
+
 .small {
-    font-size: 14px;
+	font-size: 14px;
 }

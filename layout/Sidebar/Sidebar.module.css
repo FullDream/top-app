@@ -1,14 +1,7 @@
-.p {
-    line-height: 29px;
-    margin: 0;
-}
-.big {
-    font-size: 18px;
+.sidebar {
+	display: grid;
+	align-content: start;
+	gap: 20px;
 }
 
-.normal {
-    font-size: 16px;
-}
-.small {
-    font-size: 14px;
-}
+
