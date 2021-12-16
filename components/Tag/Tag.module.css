@@ -40,7 +40,7 @@
 .green {
 	color: var(--green);
 	background: var(--gray-light);
-
+	border-radius: 20px;
 	font-weight: 700;
 }
 

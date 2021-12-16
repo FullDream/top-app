@@ -9,3 +9,19 @@
 .editable {
 	cursor: pointer;
 }
+
+.error span svg {
+	stroke: var(--red);
+	stroke-width: 0.5px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.errorMessage {
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    color: var(--red);
+}
