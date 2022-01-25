@@ -99,6 +99,11 @@
     margin-left: 20px;
 }
 
+.reviews {
+    overflow: hidden;
+    padding: 30px;
+}
+
 .advBlock {
     font-size: 16px;
     line-height: 22px;
@@ -140,16 +145,7 @@
     margin-bottom: 5px;
 }
 
-.closed {
-    overflow: hidden;
-    max-height: 0;
-    padding: 0;
-}
 
-.opened {
-    max-height: auto;
-    padding: 30px;
-}
 
 @media screen and (max-width: 1320px) {
     .product {

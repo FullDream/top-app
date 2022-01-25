@@ -19,7 +19,7 @@ export const ReviewForm = ({ productId, className, ...props }: ReviewFormProps):
 
     const onSubmit = async (formData: IReviewForm) => {
         try {
-            const { data } = await axios.post<IReviewSendResponse>(API.review.createDemo, { ...formData, productId });
+            const { data } = await axios.post<IReviewSendResponse>(API.review.createDemoм, { ...formData, productId });
 
             if (data.message) {
                 setIsSucess(true);
