@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, KeyboardEvent } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/dist/client/router'
 import { motion } from 'framer-motion'
@@ -55,6 +55,13 @@ export const Menu = (): JSX.Element => {
 			)
 	}
 
+	const openSecondMenuKey = (key: KeyboardEvent, secondCategory: string) => {
+		if (key.code == 'Space' || key.code == 'Enter') {
+			key.preventDefault()
+			openSecondMenu(secondCategory)
+		}
+	}
+
 	const buildFirstLevel = () => {
 		return (
 			<>
@@ -92,7 +99,11 @@ export const Menu = (): JSX.Element => {
 						<div key={item._id.secondCategory}>
 							<div
 								className={styles.secondLevel}
+								tabIndex={0}
 								onClick={() => openSecondMenu(item._id.secondCategory)}
+								onKeyDown={(key: KeyboardEvent) =>
+									openSecondMenuKey(key, item._id.secondCategory)
+								}
 							>
 								{item._id.secondCategory}
 							</div>

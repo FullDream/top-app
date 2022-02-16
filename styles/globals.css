@@ -1,10 +1,26 @@
+:root {
+	--font-family: "Noto Sans Display", sans-serif;
+	--gray: #A4A4A4; 
+	--gray-light: #EBEBEB;
+	--gray-dark: #6c7076;
+	--black: #3B434E;
+	--white: white;
+	--primary: #6849df;
+	--primary-hover: #47319D;
+	--red: #FC836D;
+	--red-light: #f5a496;
+	--green: #017848;
+	--green-light: #C8F8E4;
+	--bg-color: #F5F6F8;
+	--hh-color: #DE0000;
+}
 html,
 body {
 	margin: 0;
 	padding: 0;
 
 	color: var(--black);
-	background: #E5E5E5;
+	background: var(--bg-color);
 
 	font-family: var(--font-family);
 }
@@ -19,17 +35,3 @@ a {
 	box-sizing: border-box;
 }
 
-:root {
-	--font-family: "Noto Sans Display", sans-serif;
-	--gray: #A4A4A4; 
-	--gray-light: #EBEBEB;
-	--gray-dark: #787D85;
-	--black: #3B434E;
-	--white: white;
-	--primary: #7653FC;
-	--primary-hover: #47319D;
-	--red: #FC836D;
-	--red-light: #f5a496;
-	--green: #1DC37E;
-	--green-light: #C8F8E4;
-}

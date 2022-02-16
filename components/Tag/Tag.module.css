@@ -27,19 +27,19 @@
 
 .red {
 	color: var(--white);
-	background: red;
+	background: var(--hh-color);
 }
 
 .grey {
 	color: var(--white);
-	background: red;
-
-	font-weight: 700;
+	background: #b3c0d9;
+	border-radius: 20px;
+	font-weight: 600;
 }
 
 .green {
 	color: var(--green);
-	background: var(--gray-light);
+	background: var(--green-light);
 	border-radius: 20px;
 	font-weight: 700;
 }
